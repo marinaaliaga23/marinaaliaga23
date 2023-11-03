@@ -1,0 +1,90 @@
+body{
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#container{
+    width: 1100px;
+    margin: 0px auto;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+
+header{
+    background: darkseagreen;
+    height: 100px;
+    width: 100%;
+    margin: 0px;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    border-bottom: 3px dashed black;
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+nav ul li{
+    float: left;
+    list-style: none;
+    margin: 10px;
+    line-height: 30px;
+}
+
+
+.clearfix{
+    clear: both;
+}
+
+
+nav{
+    background: blanchedalmond;
+    height: 50px;
+    border-bottom: 1px solid black;
+}
+
+
+#content{
+    float: left;
+    width: 60%;
+    background: bisque;
+    min-height: 500px;
+    padding: 40px;
+}
+
+
+aside{
+    float: left;
+    width: 30.9%;
+    background: lightgreen;
+    min-height: 560px;
+    padding: 10px;
+}
+
+
+footer{
+    background: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+
+
+.article{
+    color: black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid burlywood
+}
+
+
+.article h2{
+    font-size: 25px;
+}
+
